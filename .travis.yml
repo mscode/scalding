@@ -5,3 +5,5 @@ scala:
 script:
   - "sbt ++$TRAVIS_SCALA_VERSION assembly"
   - "scripts/test_tutorials.sh"
+notifications:
+  email: manishas@qhode.com  
